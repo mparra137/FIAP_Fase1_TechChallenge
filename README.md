@@ -39,9 +39,9 @@ O pipeline completo inclui:
 
 As features mais relevantes para o diagnóstico, segundo SHAP e Feature Importance:
 
-1. **Glucose** — maior preditor de diabetes (SHAP médio: 0.9498)
-2. **BMI** — segundo fator mais relevante (SHAP médio: 0.6511)
-3. **Pregnancies** — terceiro fator (SHAP médio: 0.4182)
+1. **Glucose** — maior preditor de diabetes
+2. **BMI** — segundo fator mais relevante 
+3. **Age** — terceiro fator
 
 ---
 
