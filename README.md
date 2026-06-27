@@ -38,26 +38,34 @@ O pipeline completo inclui:
 
 ---
 
-## Como executar
+## ▶️ Como executar
 
 - Toda a análise, e execução foi feita utilizando Jupyter Notebook
 - Para executar basta utilizar o comando Run All / Executar tudo do Jupyter Notebook
 - O próprio notebook instala as dependências na primeira célula 
 
 ---
-### Estrutura do projeto
+### 📁 Estrutura do projeto
 
+```text
 Challenge/
-
 │
 ├── dataset/
+│   └── diabetes.csv
+│
 ├── graficos/
+│   ├── roc_curve.png
+│   ├── shap_summary.png
+│   └── confusion_matrix.png
+│
 ├── notebook/
-├── README.md
-
+│   └── Diabetes_case_KnnImputer.ipynb
+│
+└── README.md
+```
 
 ---
-### Gráficos
+### 📊 Gráficos
 
 Destaco aqui alguns resultados obtidos no treinamento dos modelos
 
@@ -111,6 +119,20 @@ SHAP
 
 ---
 
+### 💡Resultados obtidos
+
+Para os pacientes com diabetes, os resultados obtidos foram esses:
+
+| Modelo | Recall | Precision | F1 |
+| ------ | ------ |-----------| -- |
+| KNN | 0.57 | 0.69 | 0.63 |
+| SVM⭐| 0.72 | 0.57 | 0.64 |
+| RandomForest| 0.57 | 0.66 | 0.61|
+
+**O SVM apresentou o melhor equilíbrio entre recall e capacidade de generalização.**
+
+---
+
 ## 🔍 Interpretabilidade
 
 A interpretabilidade foi executada sob o modelo com melhor resultado: **Support Vector Machine**
@@ -144,7 +166,7 @@ Este modelo é uma **ferramenta de triagem e apoio**, não um sistema de diagnó
 - shap
 - jupyter
 
-## Conclusões
+## 🎯 Conclusões
 
 Neste trabalho, foram desenvolvidos três modelos de classificação (K-Nearest Neighbors, Random Forest e Support Vector Machine) para prever a presença de diabetes a partir de variáveis clínicas como glucose (glicose), BMI (IMC), Age (idade), pregnancies (gestações).
 
