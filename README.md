@@ -75,21 +75,37 @@ Shap Summary Plot
 ### Fluxo do projeto
 
 Dataset
+
 ↓
+
 EDA
+
 ↓
+
 Pré-processamento
+
 ↓
+
 Train/Test Split
+
 ↓
+
 StandardScaler
+
 ↓
+
 KNNImputer
+
 ↓
+
 Treinamento
+
 ↓
+
 Avaliação
+
 ↓
+
 SHAP
 
 ---
