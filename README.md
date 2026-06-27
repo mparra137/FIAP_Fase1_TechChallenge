@@ -35,6 +35,7 @@ O pipeline completo inclui:
 
 - Python 3.11+ (Os modelos foram treinados utilizando Python 3.14)
 - pip
+- Jupyter notebook
 
 ---
 
@@ -126,7 +127,7 @@ Para os pacientes com diabetes, os resultados obtidos foram esses:
 | Modelo | Recall | Precision | F1 |
 | ------ | ------ |-----------| -- |
 | KNN | 0.57 | 0.69 | 0.63 |
-| SVM⭐| 0.72 | 0.57 | 0.64 |
+| SVM⭐| **0.72** | 0.57 | 0.64 |
 | RandomForest| 0.57 | 0.66 | 0.61|
 
 **O SVM apresentou o melhor equilíbrio entre recall e capacidade de generalização.**
