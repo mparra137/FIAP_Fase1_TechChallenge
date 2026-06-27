@@ -48,6 +48,7 @@ O pipeline completo inclui:
 ### Estrutura do projeto
 
 Challenge/
+
 │
 ├── dataset/
 ├── graficos/
@@ -139,7 +140,7 @@ Este modelo é uma **ferramenta de triagem e apoio**, não um sistema de diagnó
 - pandas, numpy
 - scikit-learn
 - matplotlib, seaborn
-- Permutation_importance
+- permutation_importance
 - shap
 - jupyter
 
