@@ -45,14 +45,52 @@ O pipeline completo inclui:
 - O próprio notebook instala as dependências na primeira célula 
 
 ---
-### Gráficos
+### Estrutura do projeto
 
-- Os gráficos gerados durante as análises do notebook estão salvos na pasta gráficos, porém podem ser melhor visualizados no próprio notebook
+Challenge/
+│
+├── dataset/
+├── graficos/
+├── notebook/
+├── README.md
+
+
+---
+### Gráficos
 
 Destaco aqui alguns resultados obtidos no treinamento dos modelos
 
 ![Matriz de Confusão](/graficos/grafico_matrizes_confusao.png)
 
+Curva ROC
+![Curva ROC](/graficos/curva_roc.png)
+
+Shap Summary Plot
+![Shap Summary Plot](/graficos/shap_summary_plot.png)
+
+
+- Os gráficos gerados durante as análises do notebook estão salvos na pasta gráficos, porém podem ser melhor visualizados no próprio notebook
+
+---
+### Fluxo do projeto
+
+Dataset
+↓
+EDA
+↓
+Pré-processamento
+↓
+Train/Test Split
+↓
+StandardScaler
+↓
+KNNImputer
+↓
+Treinamento
+↓
+Avaliação
+↓
+SHAP
 
 ---
 
