@@ -51,7 +51,7 @@ O pipeline completo inclui:
 
 Destaco aqui alguns resultados obtidos no treinamento dos modelos
 
-!(/graficos/grafico_matrizes_confusao.png)
+![Matriz de Confusão](/graficos/grafico_matrizes_confusao.png)
 
 
 ---
