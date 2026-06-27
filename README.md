@@ -6,7 +6,7 @@
 
 ## 📋 Descrição do Projeto
 
-Este projeto implementa um sistema inteligente de suporte ao diagnóstico médico, focado na **classificação de diabetes** a partir de dados clínicos estruturados.
+O objetivo desse projeto é implementar um sistema inteligente de suporte ao diagnóstico médico, focado na **classificação de diabetes** a partir de dados clínicos estruturados.
 
 O pipeline completo inclui:
 - Análise Exploratória de Dados (EDA)
@@ -15,9 +15,9 @@ O pipeline completo inclui:
 - Avaliação com métricas clínicas (foco em Recall) 
 - Interpretabilidade com Feature Importance e SHAP
 
->Por que Recall?
+>*Por que Recall?*
 
->Em aplicações médicas, falsos negativos são mais críticos que falsos positivos, pois um paciente doente classificado como saudável pode deixar de receber tratamento. Por isso, o modelo foi otimizado priorizando Recall.
+>*Em aplicações médicas, falsos negativos são mais críticos que falsos positivos, pois um paciente doente classificado como saudável pode deixar de receber tratamento. Por isso, o modelo foi otimizado priorizando Recall.*
 ---
 
 ## 🗃️ Dataset
@@ -123,7 +123,7 @@ As features mais relevantes para o diagnóstico, segundo SHAP e Feature Importan
 
 1. **Glucose** — maior preditor de diabetes
 2. **BMI** — segundo fator mais relevante 
-3. **DiabetesPedigreeFunction** e **Age** - Seguem como fatores medio-relevantes
+3. **DiabetesPedigreeFunction** e **Age** - Seguem como fatores intermediários
 
 ---
 
