@@ -36,11 +36,14 @@ O pipeline completo inclui:
 - Python 3.11+ (Os modelos foram treinados utilizando Python 3.14)
 - pip
 - Jupyter notebook
+- VS Code
 
 ---
 
 ## ▶️ Como executar
 
+- Este projeto foi feito utilizando a ferramenta VS Code
+- Clonar este projeto para sua máquina
 - Toda a análise, e execução foi feita utilizando Jupyter Notebook
 - Para executar basta utilizar o comando Run All / Executar tudo do Jupyter Notebook
 - O próprio notebook instala as dependências na primeira célula 
